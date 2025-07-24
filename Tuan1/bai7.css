@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid gray;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    padding: 5px 15px;
+    margin-top: 10px;
+}

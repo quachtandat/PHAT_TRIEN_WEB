@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Log in";
+}
+@model Project.Models.LoginViewModel
+<h1>@ViewData["Title"]</h1>
+<div class="row">
+    <div class="col-md-4 offset-2">
+        <section>
+            <form id="account" method="post" asp-action="login" asp-controller="user">
+                <h2>Use a local account to log in.</h2>
+                <hr />
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" class="form-control" autocomplete="username" aria-required="true" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" class="form-control" autocomplete="current-password" aria-required="true" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                @*<div class="form-group">
+                    <div class="checkbox">
+                        <label asp-for="Input.RememberMe">
+                            <input asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div>
+                </div>*@
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+                <div class="form-group">
+                 @*   <p>
+                        <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                    </p>*@
+                    <p>
+                        <a asp-controller="user" asp-action="register" asp-route-returnUrl="/user/login">Register as a new user</a>
+                    </p>
+                   @* <p>
+                        <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
+                    </p>*@
+                </div>
+            </form>
+        </section>
+    </div>
+    
+</div>
+
+@section Scripts {
+    @* <partial name="_ValidationScriptsPartial" /> *@
+}

@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PT_HTML\\doan\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\controllers\\adminproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:controllers\\adminproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\views\\adminproducts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:views\\adminproducts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\views\\adminproducts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:views\\adminproducts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\views\\adminproducts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:views\\adminproducts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\viewmodels\\orderinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:viewmodels\\orderinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\views\\shared\\components\\category\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:views\\shared\\components\\category\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\views\\shared\\_productpartial - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:views\\shared\\_productpartial - copy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\views\\adminproducts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:views\\adminproducts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|d:\\pt_html\\doan\\project\\helpers\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1FEF55-1867-4C57-9672-1644D8DB6F63}|Project.csproj|solutionrelative:helpers\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminProductsController.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Controllers\\AdminProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminProductsController.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Controllers\\AdminProductsController.cs",
+              "RelativeToolTip": "Controllers\\AdminProductsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T08:25:28.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA3wBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T07:00:50.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Views\\Cart\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Cart.cshtml",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Views\\Cart\\Cart.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Cart.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwEUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T06:47:42.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAADwv5kAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T06:16:25.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Views\\AdminProducts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminProducts\\Create.cshtml",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Views\\AdminProducts\\Create.cshtml",
+              "RelativeToolTip": "Views\\AdminProducts\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADgAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T06:28:41.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Views\\AdminProducts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminProducts\\Index.cshtml",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Views\\AdminProducts\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminProducts\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T06:29:36.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Views\\AdminProducts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminProducts\\Edit.cshtml",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Views\\AdminProducts\\Edit.cshtml",
+              "RelativeToolTip": "Views\\AdminProducts\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T06:29:27.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:45:32.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:46:10.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:59:08.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderInfoViewModel.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\ViewModels\\OrderInfoViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\OrderInfoViewModel.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\ViewModels\\OrderInfoViewModel.cs",
+              "RelativeToolTip": "ViewModels\\OrderInfoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T03:14:14.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T06:43:11.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:32:16.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:32:12.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Views\\Shared\\Components\\Category\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Category\\Default.cshtml",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Views\\Shared\\Components\\Category\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Category\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T06:33:21.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ProductPartial - Copy.cshtml",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Views\\Shared\\_ProductPartial - Copy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ProductPartial - Copy.cshtml",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Views\\Shared\\_ProductPartial - Copy.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ProductPartial - Copy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T06:34:59.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T06:34:54.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:32:14.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T03:14:07.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Views\\AdminProducts\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminProducts\\Details.cshtml",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Views\\AdminProducts\\Details.cshtml",
+              "RelativeToolTip": "Views\\AdminProducts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T06:30:11.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\PT_HTML\\doan\\Project\\Helpers\\CartService.cs",
+              "RelativeDocumentMoniker": "Helpers\\CartService.cs",
+              "ToolTip": "D:\\PT_HTML\\doan\\Project\\Helpers\\CartService.cs",
+              "RelativeToolTip": "Helpers\\CartService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T02:58:51.543Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

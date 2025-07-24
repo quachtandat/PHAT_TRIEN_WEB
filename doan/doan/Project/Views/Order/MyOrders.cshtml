@@ -1,0 +1,26 @@
+﻿@model List<Project.Models.Order>
+
+<h2>Đơn hàng của tôi</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ngày</th>
+            <th>Tổng</th>
+            <th>Trạng thái</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var o in Model)
+        {
+            <tr>
+                <td>
+                    @((o.CreatedAt ?? DateTime.MinValue).ToString("dd/MM/yyyy"))
+                </td>
+                <td>@((o.Total ?? 0).ToString("N0")) đ</td>
+                <td>@o.Status</td>
+                <td><a href="/Order/Details/@o.Id">Xem</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

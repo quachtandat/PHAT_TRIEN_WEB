@@ -1,0 +1,16 @@
+﻿@model Project.Models.Product
+
+<div class="col-lg-4 col-md-6 text-center">
+	<div class="single-product-item">
+		<div class="product-image">
+			<a asp-action="Detail" asp-controller="Product" asp-route-id="@Model.Id">
+				<img src="~/assets/img/products/@Model.Image" alt="">
+			</a>
+		</div>
+		<h3>@Model.Name</h3>
+		<p class="product-price"><span>Per Kg</span> @Model.Price$ </p>
+		<a asp-controller="Cart" asp-action="AddToCart" asp-route-id="@Model.Id" class="cart-btn">
+			<i class="fas fa-shopping-cart"></i> Add to Cart
+		</a>
+	</div>
+</div>

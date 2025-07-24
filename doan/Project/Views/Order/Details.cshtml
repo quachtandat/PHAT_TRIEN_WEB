@@ -1,0 +1,26 @@
+﻿@model Project.Models.Order
+
+<h2>Chi tiết đơn hàng</h2>
+<p><b>Tên:</b> @Model.FullName</p>
+<p><b>Điện thoại:</b> @Model.Phone</p>
+<p><b>Địa chỉ:</b> @Model.Address</p>
+
+
+<table class="table">
+    <thead><tr><th>Sản phẩm</th><th>SL</th><th>Giá</th><th>Tổng</th></tr></thead>
+    <tbody>
+        @foreach (var item in Model.OrderDetail)
+        {
+            <tr>
+                <td>@item.Product?.Name</td>
+                <td>@item.Quantity</td>
+                <td>
+                    @((item.Price ?? 0))
+                </td>
+                <td>@(item.Price * item.Quantity)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p><strong>Tổng cộng:</strong> @((Model.Total ?? 0)) đ</p>

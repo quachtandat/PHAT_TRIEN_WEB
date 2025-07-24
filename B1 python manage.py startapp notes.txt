@@ -1,0 +1,101 @@
+B1: python manage.py startapp notes
+B2: taskmanager/settings.py THÊM 'notes',
+B3: notes/models.py
+
+from django.db import models
+from django.contrib.auth.models import User
+
+class Note(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    content = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.user.username} - {self.content[:30]}"
+------
+B4:python manage.py makemigrations notes
+python manage.py migrate
+-----
+B5:notes/views.py
+from django.shortcuts import render, redirect
+from .models import Note
+from django.contrib.auth.decorators import login_required
+
+@login_required
+def note_list(request):
+    notes = Note.objects.filter(user=request.user).order_by('-created_at')
+    return render(request, 'notes/note_list.html', {'notes': notes})
+
+@login_required
+def add_note(request):
+    if request.method == 'POST':
+        content = request.POST.get('content')
+        if content:
+            Note.objects.create(user=request.user, content=content)
+            return redirect('note_list')
+    return render(request, 'notes/add_note.html')
+---
+B6: notes/urls.py
+
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.note_list, name='note_list'),
+    path('add/', views.add_note, name='add_note'),
+]
+
+---
+taskmanager/urls.py
+
+ path('notes/', include('notes.urls')),  # <- thêm dòng này
+---
+notes/templates/notes/
+note_list.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Notes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+    <div class="container">
+        <h2>Notes for {{ request.user.username }}</h2>
+        <a href="{% url 'add_note' %}" class="btn btn-primary mb-3">Add New Note</a>
+        <ul class="list-group">
+            {% for note in notes %}
+                <li class="list-group-item">{{ note.content }} <br><small class="text-muted">{{ note.created_at }}</small></li>
+            {% empty %}
+                <li class="list-group-item">No notes yet.</li>
+            {% endfor %}
+        </ul>
+        <br>
+        <a href="/">Back to Tasks</a>
+    </div>
+</body>
+</html>
+-----
+add_note.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Note</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+    <div class="container">
+        <h2>Add a Note</h2>
+        <form method="POST">
+            {% csrf_token %}
+            <div class="mb-3">
+                <textarea name="content" class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Save</button>
+            <a href="{% url 'note_list' %}" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</body>
+</html>
+

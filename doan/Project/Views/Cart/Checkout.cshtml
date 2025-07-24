@@ -1,0 +1,26 @@
+﻿@model Project.ViewModels.CartCheckoutViewModel
+
+<h2>Xác nhận đơn hàng</h2>
+
+<p><strong>Họ tên:</strong> @Model.OrderInfo.FullName</p>
+<p><strong>Điện thoại:</strong> @Model.OrderInfo.Phone</p>
+<p><strong>Địa chỉ:</strong> @Model.OrderInfo.Address</p>
+
+<table class="table">
+    <thead><tr><th>Sản phẩm</th><th>SL</th><th>Giá</th><th>Tổng</th></tr></thead>
+    <tbody>
+        @foreach (var item in Model.CartItems)
+        {
+            <tr>
+                <td>@item.Product.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.Product.Price</td>
+                <td>@(item.Product.Price * item.Quantity)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<form asp-action="SubmitOrder" method="post">
+    <button type="submit" class="btn btn-primary">Xác nhận đặt hàng</button>
+</form>
